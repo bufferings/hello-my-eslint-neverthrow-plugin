@@ -1,3 +1,3 @@
-# hello-result
+# hello-my-eslint-plugin-neverthrow
 
-My sandbox project to try NeverThrow with ESLint Flat Config.
+A sample project for [@bufferings/eslint-plugin-neverthrow](https://www.npmjs.com/package/@bufferings/eslint-plugin-neverthrow)
