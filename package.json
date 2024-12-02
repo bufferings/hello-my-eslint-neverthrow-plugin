@@ -2,14 +2,10 @@
   "name": "hello-result",
   "type": "module",
   "devDependencies": {
-    "@bufferings/eslint-plugin-neverthrow": "0.2.7",
-    "@eslint/compat": "^1.2.3",
-    "@eslint/eslintrc": "^3.2.0",
+    "@bufferings/eslint-plugin-neverthrow": "0.2.8",
     "@eslint/js": "^9.15.0",
     "@types/node": "^22.10.1",
     "eslint": "^9.15.0",
-    "globals": "^15.12.0",
-    "tsutils": "^3.21.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.16.0"

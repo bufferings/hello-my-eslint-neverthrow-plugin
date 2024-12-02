@@ -13,14 +13,8 @@ importers:
         version: 8.1.1
     devDependencies:
       '@bufferings/eslint-plugin-neverthrow':
-        specifier: 0.2.7
-        version: 0.2.7(@typescript-eslint/parser@8.16.0(eslint@9.16.0)(typescript@5.7.2))(eslint@9.16.0)(typescript@5.7.2)
-      '@eslint/compat':
-        specifier: ^1.2.3
-        version: 1.2.3(eslint@9.16.0)
-      '@eslint/eslintrc':
-        specifier: ^3.2.0
-        version: 3.2.0
+        specifier: 0.2.8
+        version: 0.2.8(@typescript-eslint/parser@8.16.0(eslint@9.16.0)(typescript@5.7.2))(eslint@9.16.0)(typescript@5.7.2)
       '@eslint/js':
         specifier: ^9.15.0
         version: 9.16.0
@@ -30,12 +24,6 @@ importers:
       eslint:
         specifier: ^9.15.0
         version: 9.16.0
-      globals:
-        specifier: ^15.12.0
-        version: 15.13.0
-      tsutils:
-        specifier: ^3.21.0
-        version: 3.21.0(typescript@5.7.2)
       tsx:
         specifier: ^4.19.2
         version: 4.19.2
@@ -48,8 +36,8 @@ importers:
 
 packages:
 
-  '@bufferings/eslint-plugin-neverthrow@0.2.7':
-    resolution: {integrity: sha512-d7YMvrEtuhfC+PAk2InWPsaxHT7rZK6DHt5AvA9/NKuCzLQxnh44yAiLAWdVrfIDI7BGqPEPokwFYByVy5BhwQ==}
+  '@bufferings/eslint-plugin-neverthrow@0.2.8':
+    resolution: {integrity: sha512-Pe2pUk9xSrDcLCertfN/HQ63aKHVdDkfIHNLmKNY6sVej/0mVnbIeoUxgso/4zTAI1BqXeVV+Tem2mt+1tbHOA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@typescript-eslint/parser': '>=8.16.0'
@@ -209,15 +197,6 @@ packages:
   '@eslint-community/regexpp@4.12.1':
     resolution: {integrity: sha512-CCZCDJuduB9OUkFkY2IgppNZMi2lBQgD2qzwXkEia16cge2pijY/aXi96CJMquDMn3nJdlPV1A5KrJEXwfLNzQ==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
-
-  '@eslint/compat@1.2.3':
-    resolution: {integrity: sha512-wlZhwlDFxkxIZ571aH0FoK4h4Vwx7P3HJx62Gp8hTc10bfpwT2x0nULuAHmQSJBOWPgPeVf+9YtnD4j50zVHmA==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-    peerDependencies:
-      eslint: ^9.10.0
-    peerDependenciesMeta:
-      eslint:
-        optional: true
 
   '@eslint/config-array@0.19.0':
     resolution: {integrity: sha512-zdHg2FPIFNKPdcHWtiNT+jEFCHYVplAXRDlQDyqy0zGx/q2parwh7brGJSiTxRk/TSMkbM//zt/f5CHgyTyaSQ==}
@@ -524,10 +503,6 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@15.13.0:
-    resolution: {integrity: sha512-49TewVEz0UxZjr1WYYsWpPrhyC/B/pA8Bq0fUmet2n+eR7yn0IvNzNaoBwnK6mdkzcN+se7Ez9zUgULTz2QH4g==}
-    engines: {node: '>=18'}
-
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
 
@@ -752,7 +727,7 @@ packages:
 
 snapshots:
 
-  '@bufferings/eslint-plugin-neverthrow@0.2.7(@typescript-eslint/parser@8.16.0(eslint@9.16.0)(typescript@5.7.2))(eslint@9.16.0)(typescript@5.7.2)':
+  '@bufferings/eslint-plugin-neverthrow@0.2.8(@typescript-eslint/parser@8.16.0(eslint@9.16.0)(typescript@5.7.2))(eslint@9.16.0)(typescript@5.7.2)':
     dependencies:
       '@typescript-eslint/parser': 8.16.0(eslint@9.16.0)(typescript@5.7.2)
       '@typescript-eslint/utils': 8.16.0(eslint@9.16.0)(typescript@5.7.2)
@@ -840,10 +815,6 @@ snapshots:
       eslint-visitor-keys: 3.4.3
 
   '@eslint-community/regexpp@4.12.1': {}
-
-  '@eslint/compat@1.2.3(eslint@9.16.0)':
-    optionalDependencies:
-      eslint: 9.16.0
 
   '@eslint/config-array@0.19.0':
     dependencies:
@@ -1205,8 +1176,6 @@ snapshots:
       is-glob: 4.0.3
 
   globals@14.0.0: {}
-
-  globals@15.13.0: {}
 
   graphemer@1.4.0: {}
 

@@ -7,5 +7,4 @@ const hello = (flag: boolean): Result<string, Error> => {
   return err(new Error("failure"));
 }
 
-const result = hello(true);
-// console.log(result.unwrapOr("aaa"));
+hello(true);
