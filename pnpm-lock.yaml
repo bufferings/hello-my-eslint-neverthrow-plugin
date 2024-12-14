@@ -13,8 +13,8 @@ importers:
         version: 8.1.1
     devDependencies:
       '@bufferings/eslint-plugin-neverthrow':
-        specifier: 0.2.9
-        version: 0.2.9(@typescript-eslint/parser@8.16.0(eslint@9.16.0)(typescript@5.7.2))(eslint@9.16.0)(typescript@5.7.2)
+        specifier: 0.2.12
+        version: 0.2.12(@typescript-eslint/parser@8.16.0(eslint@9.16.0)(typescript@5.7.2))(eslint@9.16.0)(typescript@5.7.2)
       '@eslint/js':
         specifier: ^9.15.0
         version: 9.16.0
@@ -36,8 +36,8 @@ importers:
 
 packages:
 
-  '@bufferings/eslint-plugin-neverthrow@0.2.9':
-    resolution: {integrity: sha512-zxeaV2fqc6urDgKrIUO2k2Pc/oBGwjHn+do9D9wlpM/51X7XBZAFf0D1gKC8OUvLO97FYjMcce03P2yPP9WKtg==}
+  '@bufferings/eslint-plugin-neverthrow@0.2.12':
+    resolution: {integrity: sha512-fbgdu3Xg7wmvETTeHj3a6FHkp1H9DxltkZ3G+SmyLfj0ct1GOjCPU0NjrVWiXscn79kH/2gyG4w5v4vr3o8hfA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@typescript-eslint/parser': '>=8.16.0'
@@ -727,7 +727,7 @@ packages:
 
 snapshots:
 
-  '@bufferings/eslint-plugin-neverthrow@0.2.9(@typescript-eslint/parser@8.16.0(eslint@9.16.0)(typescript@5.7.2))(eslint@9.16.0)(typescript@5.7.2)':
+  '@bufferings/eslint-plugin-neverthrow@0.2.12(@typescript-eslint/parser@8.16.0(eslint@9.16.0)(typescript@5.7.2))(eslint@9.16.0)(typescript@5.7.2)':
     dependencies:
       '@typescript-eslint/parser': 8.16.0(eslint@9.16.0)(typescript@5.7.2)
       '@typescript-eslint/utils': 8.16.0(eslint@9.16.0)(typescript@5.7.2)
